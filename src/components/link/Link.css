@@ -1,0 +1,18 @@
+a img {
+	filter: grayscale(1);
+	transition: all 0.3s;
+	height: 32px;
+}
+
+a:hover img {
+	filter: grayscale(0);
+}
+
+#tui-link {
+	filter: brightness(2.5);
+	transition: all 0.3s;
+}
+
+#tui-link:hover {
+	filter: brightness(1);
+}
